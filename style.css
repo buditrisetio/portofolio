@@ -642,7 +642,7 @@ body {
 .webp1 .webborder {
   border: 1px solid rgba(0, 0, 0, 0);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 320px));
   justify-content: center;
   background-color: rgba(54, 153, 54, 0);
   width: 100%;
