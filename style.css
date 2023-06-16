@@ -642,7 +642,7 @@ body {
 .webp1 .webborder {
   border: 1px solid rgba(0, 0, 0, 0);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 320px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
   justify-content: center;
   background-color: rgba(54, 153, 54, 0);
   width: 100%;
@@ -653,7 +653,9 @@ body {
 
 .webborder .wp1,
 .webborder .wp2,
-.webborder .wp3 {
+.webborder .wp3,
+.webborder .wp4,
+.webborder .wp5 {
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 5px;
   background-color: #0acece00;
@@ -665,7 +667,9 @@ body {
 
 .wp1 .wptop,
 .wp2 .wptop,
-.wp3 .wptop  {
+.wp3 .wptop,
+.wp4 .wptop,
+.wp5 .wptop {
   background-color: rgba(255, 0, 0, 0);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -675,7 +679,9 @@ body {
 
 .wp1 .wpbot,
 .wp2 .wpbot,
-.wp3 .wpbot {
+.wp3 .wpbot,
+.wp4 .wpbot,
+.wp5 .wpbot {
   background-color: rgba(172, 255, 47, 0);
   display: grid;
   align-items: flex-end;
@@ -730,7 +736,7 @@ body {
 /*  */
 
 .wpbot .img3 {
-  background-image: url(foto/sales.png);
+  background-image: url(foto/inventory.png);
   background-position: center;
   background-size: cover;
   width: 80%;
@@ -742,6 +748,38 @@ body {
 }
 
 .wpbot .img3:hover {
+  background-position-y: -25px;
+}
+
+.wpbot .img4 {
+  background-image: url(foto/sales.png);
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 190px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 3px black;
+  transition: 0.5s;
+  background-position-y: 0px;
+}
+
+.wpbot .img4:hover {
+  background-position-y: -25px;
+}
+
+.wpbot .img5 {
+  background-image: url(foto/gallery.png);
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  height: 190px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 3px black;
+  transition: 0.5s;
+  background-position-y: 0px;
+}
+
+.wpbot .img5:hover {
   background-position-y: -25px;
 }
 
